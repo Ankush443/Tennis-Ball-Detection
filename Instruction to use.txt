@@ -1,0 +1,17 @@
+<-Instruction to the code->
+---
+If you are using tapped frame (boundary) with color other than white,
+then use the folder named (Frame with Tapped BG)
+---
+If you are using tapped frame with white background OR 
+White bg with distinguishing wall color,
+than feel free to use folder named (Frame with White BG).
+---
+---
+If you are not using a Webcam than there is also a video name (Tennis_ball_wall_12.mp4) is attached with the python code in the code you can edit it to work properly.
+
+From |# Initialize video capture (0 for default camera)|
+     |cap = cv2.VideoCapture(0)			       |
+------
+to   |# Initialize video capture ('link' for default camera)|
+     |cap = cv2.VideoCapture("Tennis_ball_wall_12.mp4")     |
